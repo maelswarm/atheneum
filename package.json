@@ -1,0 +1,30 @@
+{
+  "name": "atheneum",
+  "version": "0.1.8",
+  "author": "Brandon Barber (@roecrew)",
+  "license": "MIT",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+ 	},
+  "repository": {
+	"type": "git",
+	"url": "git://github.com/roecrew/atheneum.git"
+	},
+	"bin": {
+	"magsearch": "./app.js"
+	},
+	"keywords": [
+	"magnet",
+	"torrent",
+	"search"
+	],
+	"dependencies": {
+		"minimist": "^1.1.0",
+		"cheerio": "^0.18.0",
+		"request": "^2.53.0",
+		"clivas": "^0.1.4",
+		"keypress": "^0.2.1"
+	}
+}
